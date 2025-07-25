@@ -41,8 +41,8 @@ async function somerandomStartActions() {
 				'https://draculusx.github.io/index.html', // Link to the Poster
 				new BS.Vector3(0,-90,0), // Local Rotation
 				new BS.Vector3(.6,.6,.6), // Local Scale
-				1.4, // Width
-				1 // Height
+				1, // Width
+				1.4 // Height
 			);
 	}, 3000);
 };
