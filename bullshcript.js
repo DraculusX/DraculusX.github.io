@@ -33,6 +33,18 @@ async function somerandomStartActions() {
 				2, // Width
 				1 // Height
 			);
+			// NAME // Button Position // posterImage // localRotation // Scale // Width // Height
+  		// createButton('Test02', new BS.Vector3(-1,2,-1), 'https://openclipart.org/image/800px/17880', 'https://firer.at/', new BS.Vector3(0,-90,0), new BS.Vector3(0.3, 0.3, 1), 2, 1 );
+  		createButton(
+				'Test01', // Name of the Button
+				new BS.Vector3(1.75,1.65,2), // Position of the Button
+				'https://draculusx.github.io/Images/WGD.PNG', // Button Image
+				'https://firer.at/', // Link to the Poster
+				new BS.Vector3(0,0,0), // Local Rotation
+				new BS.Vector3(.6,.6,.6), // Local Scale
+				2, // Width
+				1 // Height
+			);
 	}, 3000);
 };
 
