@@ -1,3 +1,4 @@
+var youtubePlayList = "PLFIGFfzorF3JcSaIAmUX-i0mOmJisVta4"; // YouTube Playlist ID
 
 /// Poster Click Stuff ////
 async function somerandomStartActions() {
@@ -130,29 +131,29 @@ async function enableYouTube() {
 			console.log("YouTube Player Loading");
 
 			const youtubeAttributes = {
-				"scale": "3.25 3.25 3.25",
+				"scale": "3.25 3.25 3.25", // Scale of the YouTube Player
 				"mip-maps": "0",
-				"rotation": "0 180 0",
-				"position": "0 3.5 20.95",
-				"hand-controls": "false",
-				"button-position": "0 2.43 20.95",
-				"button-rotation": "0 180 0",
-				"button-scale": "0.69 0.69 0.69",
-				"volume": "5",
+				"rotation": "0 180 0", // Rotation of the YouTube Player
+				"position": "0 3.5 20.95", // Position of the YouTube Player
+				"hand-controls": "false", // Hand Controls for the YouTube Player
+				"button-position": "0 2.43 20.95", // Position of the YouTube Player Buttons
+				"button-rotation": "0 180 0", // Rotation of the YouTube Player Buttons
+				"button-scale": "0.69 0.69 0.69", // Scale of the YouTube Player Buttons
+				"volume": "5", // Volume of the YouTube Player
 				// "spatial": "true",
-				"spatial-min-distance": "1",
-				"spatial-max-distance": "500",
-				"playlist": "PLFIGFfzorF3JcSaIAmUX-i0mOmJisVta4",
+				"spatial-min-distance": "1", // Distance at which the sound will start to fade in
+				"spatial-max-distance": "500", // Distance at which the sound will be audible
+				"playlist": youtubePlayList, // YouTube Playlist ID
 				"data-playlist-icon-url": "https://draculusx.github.io/Images/YT/Playlist.png",
 				"data-vol-up-icon-url": "https://draculusx.github.io/Images/YT/VolUp.png",
 				"data-vol-down-icon-url": "https://draculusx.github.io/Images/YT/VolDown.png",
 				"data-mute-icon-url": "https://draculusx.github.io/Images/YT/Mute.png",
 				"data-skip-forward-icon-url": "https://draculusx.github.io/Images/YT/Forward.png",
 				"data-skip-backward-icon-url": "https://draculusx.github.io/Images/YT/Back.png",
-				"announce": "false",
-				"instance": "blacknight",
-				"announce-events": "true",
-				"announce-four-twenty": "false"
+				"announce": "false", // Announce players entering the space
+				"instance": "blacknight", // Instance name for the YouTube Player
+				"announce-events": "true", // Announce events when they are about to start
+				"announce-four-twenty": "false" // Announce 4:20 events
 			};
 
 			injectRenderScript(
