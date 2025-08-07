@@ -53,6 +53,17 @@ async function somerandomStartActions() {
 				1, // Width
 				1.4 // Height
 			);
+		// createButton // NAME // Button Position // posterImage // localRotation // Scale // Width // Height
+  		createButton(
+				'Test02', // Name of the Button
+				new BS.Vector3(-5.49,2,-4.1), // Position of the Button
+				'https://draculusx.github.io/Images/RazorCrop.png', // Button Image
+				'https://draculusx.github.io/index.html', // Link to the Poster
+				new BS.Vector3(0,-90,0), // Local Rotation
+				new BS.Vector3(.6,.6,.6), // Local Scale
+				1.4, // Width
+				1 // Height
+			);
 	}, 3000);
 };
 
