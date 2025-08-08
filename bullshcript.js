@@ -36,7 +36,7 @@ async function somerandomStartActions() {
 				'Test01', // Name of the Button
 				new BS.Vector3(2.75,1.65,2), // Position of the Button
 				'https://draculusx.github.io/Images/WGD.png', // Button Image
-				'https://draculusx.github.io/index.html', // Link to the Poster
+				'https://en.wikipedia.org/wiki/World_Goth_Day', // Link to the Poster
 				new BS.Vector3(0,0,0), // Local Rotation
 				new BS.Vector3(.6,.6,.6), // Local Scale
 				1, // Width
@@ -47,7 +47,7 @@ async function somerandomStartActions() {
 				'Test02', // Name of the Button
 				new BS.Vector3(-5.49,2,-4.1), // Position of the Button
 				'https://draculusx.github.io/Images/WGD.png', // Button Image
-				'https://draculusx.github.io/index.html', // Link to the Poster
+				'https://en.wikipedia.org/wiki/World_Goth_Day', // Link to the Poster
 				new BS.Vector3(0,-90,0), // Local Rotation
 				new BS.Vector3(.6,.6,.6), // Local Scale
 				1, // Width
