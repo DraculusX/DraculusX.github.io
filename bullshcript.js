@@ -59,7 +59,7 @@ async function somerandomStartActions() {
 				new BS.Vector3(-7.4,2,-2), // Position of the Button
 				'https://draculusx.github.io/Images/RazorCrop.png', // Button Image
 				'https://draculusx.github.io/index.html', // Link to the Poster
-				new BS.Vector3(0,-90,0), // Local Rotation
+				new BS.Vector3(0,-180,0), // Local Rotation
 				new BS.Vector3(.6,.6,.6), // Local Scale
 				1.4, // Width
 				1 // Height
