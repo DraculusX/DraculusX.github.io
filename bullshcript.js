@@ -1,5 +1,6 @@
 var youtubePlayList = "PLtVfX3-hK60MkgzexNOD1XkzRyIYCXfI3"; // YouTube Playlist ID
 
+window.addEventListener("unity-loaded", async () => {
 /// Poster Click Stuff ////
 async function somerandomStartActions() {
 	const thisscene = BS.BanterScene.GetInstance();
@@ -178,3 +179,4 @@ async function enableYouTube() {
 
 
 somerandomStartActions();
+});
