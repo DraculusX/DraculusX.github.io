@@ -1,9 +1,9 @@
 var youtubePlayList = "PLtVfX3-hK60MkgzexNOD1XkzRyIYCXfI3"; // YouTube Playlist ID
 
-window.addEventListener("unity-loaded", async () => {
+window.addEventListener("unity-loaded", () => {
 /// Poster Click Stuff ////
 async function somerandomStartActions() {
-	const thisscene = BS.BanterScene.GetInstance();
+	// const thisscene = BS.BanterScene.GetInstance();
 	// const waitingForUnity = async () => { while (!thisscene.unityLoaded) { await new Promise(resolve => setTimeout(resolve, 500)); } };
 	// await waitingForUnity(); console.log("BS: Unity-Loaded");
 	/* UNCOMMENT THIS TO ENABLE THE YOUTUBE PLAYER */
