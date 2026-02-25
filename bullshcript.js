@@ -4,8 +4,8 @@ window.addEventListener("unity-loaded", async () => {
 /// Poster Click Stuff ////
 async function somerandomStartActions() {
 	const thisscene = BS.BanterScene.GetInstance();
-	const waitingForUnity = async () => { while (!thisscene.unityLoaded) { await new Promise(resolve => setTimeout(resolve, 500)); } };
-	await waitingForUnity(); console.log("BS: Unity-Loaded");
+	// const waitingForUnity = async () => { while (!thisscene.unityLoaded) { await new Promise(resolve => setTimeout(resolve, 500)); } };
+	// await waitingForUnity(); console.log("BS: Unity-Loaded");
 	/* UNCOMMENT THIS TO ENABLE THE YOUTUBE PLAYER */
 		enableYouTube();
 	/* UNCOMMENT THIS TO ENABLE SCREEN CAST / YOUTUBE LIVE */
