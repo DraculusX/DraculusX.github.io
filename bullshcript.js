@@ -1,11 +1,4 @@
-/* YouTube Playlists
-Light Shows and Music PLZWiw-xxQ4SNl-dmJhSk6xSnGuALdCZGf
-Night at Cannabanter PLZWiw-xxQ4SOvb8f0nA4_QbGl2hAQuoGR
-Tech House Mix PLzgofGqYK8u47wzvoIz1MWBdOe6ow4R12
-CannaTest PLzgofGqYK8u6AlSuAxhkaYzgkWBvDupWR
-*/
-
-let youtubePlaylist = `PLtVfX3-hK60MkgzexNOD1XkzRyIYCXfI3`;
+var youtubePlayList = "PLtVfX3-hK60MkgzexNOD1XkzRyIYCXfI3"; // YouTube Playlist ID
 let otherwebsiteurl = "https://draculusx.github.io/index.html"; // Small Portable Screen
 var websiteurl = "https://draculusx.github.io/index.html"; // Big Screen
 
